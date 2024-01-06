@@ -12,10 +12,10 @@ public class Porgram
 
     public static void Main()
     {
-        Tea tea = new Tea();
+        CaffeineBeverage tea = new Tea();
         tea.prepareBeverage();
 
-        Coffee coffee = new Coffee();
+        CaffeineBeverage coffee = new Coffee();
         coffee.prepareBeverage();
     }
 }
